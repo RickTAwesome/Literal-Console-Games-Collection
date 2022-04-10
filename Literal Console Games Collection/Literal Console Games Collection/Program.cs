@@ -21,7 +21,6 @@ namespace Literal_Console_Games_Collection
             Thread.Sleep(83);
             #endregion
         }
-
         static void Main(string[] args)
         {
             Intro();
@@ -54,14 +53,16 @@ namespace Literal_Console_Games_Collection
                     Console.WriteLine();
                     confirm = Char.ToUpper(char.Parse(Console.ReadLine()));
 
-                    if (confirm != 'Y' || confirm != 'N')
+                    if ((confirm != 'Y') && (confirm != 'N'))
                     {
                         Console.SetCursorPosition(0, Console.CursorTop - 3);
                         Console.WriteLine("Invalid answer.");
                     }
 
-                } while (confirm != 'Y' || confirm != 'N');
+                } while ((confirm != 'Y') && (confirm != 'N'));
                 #endregion
+
+                Console.Clear();
 
                 #region After Confirmation
                 switch (select)
@@ -85,18 +86,19 @@ namespace Literal_Console_Games_Collection
                 #region Repeat
                 do
                 {
+                    Console.SetCursorPosition(Console.CursorLeft - 1, Console.CursorTop);
                     Console.WriteLine("Would you like to return to the main menu? [Y/N]");
-                    confirm = char.Parse(Console.ReadLine());
+                    confirm = Char.ToUpper(char.Parse(Console.ReadLine()));
 
-                    if (Char.ToUpper(confirm) != 'Y' && Char.ToUpper(confirm) != 'N')
+                    if ((confirm != 'Y') && (confirm != 'N'))
                     {
                         Console.WriteLine("Invalid answer.");
                     }
 
-                } while (Char.ToUpper(confirm) != 'Y' && Char.ToUpper(confirm) != 'N');
+                } while ((confirm != 'Y') && (confirm != 'N'));
                 #endregion
 
-            } while (confirm == 'Y' || confirm == 'y');
+            } while ((confirm == 'Y'));
 
             Outro();
             return;
@@ -122,7 +124,28 @@ namespace Literal_Console_Games_Collection
     {
         public static void RussianRoulette()
         {
-            Console.WriteLine("Test");
+            Console.WriteLine("Welcome to Russian Roulette!");
+            Console.WriteLine();
+            Console.WriteLine("   ______.");
+            Console.WriteLine(" ~(_]----'");
+            Console.WriteLine(" /_(");
+            Console.WriteLine();
+            Console.WriteLine("This is a revolver. The kind isn't specified, but we do know this one has specifically 6 bullets.");
+            Console.WriteLine("Your goal is to guess in which chamber the bullet ISN'T in.");
+            Random chamber = new Random();
+            int random = chamber.Next(1,7);
+            Console.WriteLine();
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+            if (random == a)
+            {
+                Console.WriteLine("You lost. Press any key to continue.");
+            }
+            else
+            {
+                Console.WriteLine("You win! Press any key to continue.");
+            }
+            Console.WriteLine();
         }
     }
 
@@ -130,7 +153,7 @@ namespace Literal_Console_Games_Collection
     {
         public static void Config()
         {
-
+            Console.WriteLine("There is nothing here. Press any key to continue.");
         }
     }
 }
