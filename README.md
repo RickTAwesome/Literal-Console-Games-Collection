@@ -18,7 +18,7 @@ Also has a neat little animation. (Assuming I actually finished it.)
 ### Russian Roulette
 You pick a number from 1-6 and then the game tells you if you win or lose. Not much fun to be had here, but it was easy to program, so I decided to make it as a little excercise.
 
--
+---
 
 ## To be continued
 More stuff will be added in the future. Or in a sequel. Not sure yet. I'm kinda not very good at updating things. Generally I prefer just starting from scratch. Should definitely stop doing that.
