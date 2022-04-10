@@ -1,0 +1,7 @@
+C:\Users\nghun\OneDrive\Desktop\Random Stuff\Everything\Programming\Literal Console Games Collection\Literal Console Games Collection\bin\Debug\Literal Console Games Collection.exe.config
+C:\Users\nghun\OneDrive\Desktop\Random Stuff\Everything\Programming\Literal Console Games Collection\Literal Console Games Collection\bin\Debug\Literal Console Games Collection.exe
+C:\Users\nghun\OneDrive\Desktop\Random Stuff\Everything\Programming\Literal Console Games Collection\Literal Console Games Collection\bin\Debug\Literal Console Games Collection.pdb
+C:\Users\nghun\OneDrive\Desktop\Random Stuff\Everything\Programming\Literal Console Games Collection\Literal Console Games Collection\obj\Debug\Literal Console Games Collection.csprojAssemblyReference.cache
+C:\Users\nghun\OneDrive\Desktop\Random Stuff\Everything\Programming\Literal Console Games Collection\Literal Console Games Collection\obj\Debug\Literal Console Games Collection.csproj.CoreCompileInputs.cache
+C:\Users\nghun\OneDrive\Desktop\Random Stuff\Everything\Programming\Literal Console Games Collection\Literal Console Games Collection\obj\Debug\Literal Console Games Collection.exe
+C:\Users\nghun\OneDrive\Desktop\Random Stuff\Everything\Programming\Literal Console Games Collection\Literal Console Games Collection\obj\Debug\Literal Console Games Collection.pdb
